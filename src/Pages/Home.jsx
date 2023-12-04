@@ -14,7 +14,7 @@ const Home = () => {
   const [isRotating, setIsRotating] = useState(false);
   const [currentStage, setCurrentStage] = useState(1);
 
-  const adjustIslandForSceenSize = () => {
+  const adjustIslandForScreenSize = () => {
     let screenScale = null;
     let screenPosition = [0, -6.5, -43];
     let rotation = [0.1, 4.7, 0];
@@ -40,7 +40,7 @@ const Home = () => {
     }
     return [screenScale, screenPosition]
   }
-  const [islandScale, islandPosition, islandRotation] = adjustIslandForSceenSize();
+  const [islandScale, islandPosition, islandRotation] = adjustIslandForScreenSize();
   const [planeScale, planePosition] = adjustPlaneForSceenSize();
 
   return (
@@ -69,8 +69,8 @@ const Home = () => {
           setCurrentStage={setCurrentStage}/>
 
           <Plane 
-          planePosition={planePosition}
-          planeScale={planeScale}
+          position={planePosition}
+          scale={planeScale}
           isRotating={isRotating}
           rotation={[0, 20, 0]}
           />

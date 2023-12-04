@@ -3,6 +3,7 @@ import express from './express.svg'
 import git from './git.svg'
 import github from './github.svg'
 import html from './html.svg'
+import Freelance from './Freelance.svg'
 import javascript from './javascript.svg'
 import mongodb from './mongodb.svg'
 import motion from './motion.svg'
@@ -12,6 +13,8 @@ import nodejs from './nodejs.svg'
 import react from './react.svg'
 import redux from './redux.svg'
 import sass from './sass.svg'
+import pixels from './pixels.svg'
+import IEEE from './IEEE.svg'
 import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
@@ -29,6 +32,7 @@ import soundoff from './soundoff.png'
 
 export {
     css,
+    pixels,
     express,
     git,
     github,
@@ -55,5 +59,7 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    IEEE,
+    Freelance,
 }
